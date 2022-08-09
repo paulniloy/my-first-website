@@ -15,15 +15,12 @@ body{
 } */
 
 .bun{
-
-    border: 20px solid rgb(255, 144, 103);
-    margin: 40px 60px;
+    margin: 1px;
     padding: 40px 60px;
     text-align: center;
+    background-color: aquamarine;
 
 }
 a:hover{
-    font-size: larger;
-    width: 30%;
     background-color: bisque;
 }
