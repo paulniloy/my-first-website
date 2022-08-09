@@ -16,8 +16,9 @@ body{
 
 .bun{
 
-    border: 10px solid rgb(255, 144, 103);
+    border: 20px solid rgb(255, 144, 103);
     margin: 40px 60px;
-    padding: 40px 20px;
+    padding: 40px 60px;
+    text-align: center;
 
 }
