@@ -1,5 +1,9 @@
 body{
     background-color: whitesmoke;
+    /* background-image: url(Images/Paul.png);
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size: cover; */
 }
 
 /* #murgi{
@@ -16,7 +20,8 @@ body{
 
 .bun{
     border: 10px solid green;
-    margin: 2px;
+    margin: 100px;
     text-align: center;
+    background-color: bisque;
 
 }
