@@ -1,0 +1,23 @@
+body{
+    background-color: whitesmoke;
+}
+
+/* #murgi{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 900;
+    text-align: center;
+}
+.friend{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: larger;
+} */
+
+.bun{
+
+    border: 10px solid rgb(255, 144, 103);
+    margin: 40px 60px;
+    padding: 40px 20px;
+
+}
