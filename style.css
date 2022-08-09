@@ -15,12 +15,8 @@ body{
 } */
 
 .bun{
-    margin: 1px;
-    padding: 40px 60px;
+    border: 10px solid green;
+    margin: 2px;
     text-align: center;
-    background-color: aquamarine;
 
-}
-a:hover{
-    background-color: bisque;
 }
