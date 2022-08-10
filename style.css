@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(205, 254, 254);
+    font-family: 'Tiro Gurmukhi', serif;
+    margin: 0px;
+}
+.font{
+    font-family: 'Tiro Gurmukhi', serif;
+}
+.halfwidth img{
+    width: 100%;
+
+}
+.halfwidth{
+    width: 40%;
+    padding-left: 3%;
+    margin-left: 4%;
+    float: left;
+}
+
+.linkbutton{
+    text-decoration: none;
+    color:antiquewhite;
+    background-image: linear-gradient(45deg, tomato, coral);
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+.topbanner{
+    background-image: linear-gradient(-45deg, tomato, purple);
+    width: 100%;
+    padding-top: 40px;
+
+}
+.bottombanner{
+    background-image: linear-gradient(90deg, yellow, purple);
+    width: 100%;
+    padding-top: 40px;
+}
+section{
+    height: 600px;
+}
+.cyan{
+    color: rgb(132, 247, 255);
+    font-weight: 600;
+}
+.coral{
+    color: coral;
+    font-weight: bolder;
+}
+.sblock{
+    background-color: rgb(18, 18, 18);
+    width: 100%;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.halfwidth img{
+    width: 100%;
+}
+section{
+    height: 700px;
+
+}
+.white{
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: medium;
+}
+.last{
+    width: 100%;
+    padding-top: 130px;
+
+}
+.hello{
+    box-shadow: 10px 10px 40px dimgray;
+    height: 60%;
+    background-color: azure;
+    padding-top: 50px;
+}
+.black{
+    color: black;
+}
+.borderl{
+    border-color: rgb(36, 36, 36);
+    border-left: 7px solid coral;
+}
+.borderr{
+    border-color: rgb(36, 36, 36);
+    border-left: 7px solid rgb(255, 211, 66);
+}
+.copyright{
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    
+}
