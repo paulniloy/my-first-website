@@ -1,53 +1,62 @@
-body{
+body {
     background-color: rgb(205, 254, 254);
     font-family: 'Tiro Gurmukhi', serif;
     margin: 0px;
 }
-.font{
+
+.font {
     font-family: 'Tiro Gurmukhi', serif;
 }
-.halfwidth img{
+
+.halfwidth img {
     width: 100%;
 
 }
-.halfwidth{
+
+.halfwidth {
     width: 40%;
     padding-left: 3%;
     margin-left: 4%;
     float: left;
 }
 
-.linkbutton{
+.linkbutton {
     text-decoration: none;
-    color:antiquewhite;
+    color: antiquewhite;
     background-image: linear-gradient(45deg, tomato, coral);
     padding: 10px 20px;
     border-radius: 20px;
 
 }
-.topbanner{
+
+.topbanner {
     background-image: linear-gradient(-45deg, tomato, purple);
     width: 100%;
     padding-top: 40px;
 
 }
-.bottombanner{
+
+.bottombanner {
     background-image: linear-gradient(90deg, yellow, purple);
     width: 100%;
     padding-top: 40px;
 }
-section{
+
+section {
     height: 600px;
 }
-.cyan{
+
+.cyan {
     color: rgb(132, 247, 255);
     font-weight: 600;
 }
-.coral{
+
+.coral {
     color: coral;
     font-weight: bolder;
 }
-.sblock{
+
+.sblock {
     background-color: rgb(18, 18, 18);
     width: 100%;
     color: blanchedalmond;
@@ -55,43 +64,62 @@ section{
     padding: 20px 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.halfwidth img{
+
+.halfwidth img {
     width: 100%;
 }
-section{
+
+section {
+    display: flex;
+    flex-direction: row;
     height: 700px;
 
 }
-.white{
+@media (max-width : 600px) {
+    section{
+        flex-direction: column;
+    }
+    footer{
+        transform: scale(0);
+    }
+}
+
+.white {
     color: whitesmoke;
     font-weight: 400;
     font-size: medium;
 }
-.last{
+
+.last {
     width: 100%;
     padding-top: 130px;
 
 }
-.hello{
+
+.hello {
     box-shadow: 10px 10px 40px dimgray;
     height: 60%;
     background-color: azure;
     padding-top: 50px;
 }
-.black{
+
+.black {
     color: black;
 }
-.borderl{
+
+.borderl {
     border-color: rgb(36, 36, 36);
     border-left: 7px solid coral;
 }
-.borderr{
+
+.borderr {
     border-color: rgb(36, 36, 36);
     border-left: 7px solid rgb(255, 211, 66);
 }
-.copyright{
+
+.copyright {
     color: black;
     text-align: center;
     font-size: 14px;
-    
+
 }
